@@ -25,7 +25,7 @@ public class CreateFlinkProgram {
     public void createFlinkProgram() {
         byte data[] = this.flinkProgram.getBytes();
 
-        //Para correr en el IDE
+        //Para correr en el IDE ide ide
 //        Path path = Paths.get("./src/main/java/sparql2flink/out/" + this.fileName + ".java");
 
         //Para Docker
