@@ -20,7 +20,7 @@ public class SPARQL2Flink {
                     "\nExecuting sample with default SPARQL query saved in << examples >> directory");
             path = Paths.get("./examples/query.rq");
         }
-
+//prueba git  16 06 2023
         LoadQueryFile queryFile = new LoadQueryFile(path.toString());
         String queryString = queryFile.loadSQFile();
 
@@ -32,7 +32,6 @@ public class SPARQL2Flink {
 
         CreateFlinkProgram javaFlinkProgram = new CreateFlinkProgram(flinkProgram, path);
         javaFlinkProgram.createFlinkProgram();
-
 
 	}
 }
